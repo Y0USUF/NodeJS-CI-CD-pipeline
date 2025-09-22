@@ -3,14 +3,13 @@
 
 This repository contains a simple Node.js web application and a complete CI/CD pipeline built with **GitHub Actions**. The objective is to automate the build, test, and deployment of the application to **DockerHub** whenever a change is pushed to the `main` branch.
 
-[cite_start]This project was created as part of the DevOps Internship Task 1, which aims to help understand the full CI/CD automation process[cite: 1].
+This project was created as part of the DevOps Internship Task 1, which aims to help understand the full CI/CD automation process
 
 #### **Tools and Technologies**
-
-* **GitHub**: Used as the code repository.
-* [cite_start]**GitHub Actions**: The CI/CD platform that automates the workflow[cite: 1].
-* [cite_start]**Node.js**: The runtime environment for the sample web application[cite: 1].
-* [cite_start]**Docker**: Used to containerize the application into an image[cite: 1].
+**GitHub**: Used as the code repository.
+**GitHub Actions**: The CI/CD platform that automates the workflow.
+**Node.js**: The runtime environment for the sample web application.
+**Docker**: Used to containerize the application into an image.
 * **DockerHub**: The registry where the Docker image is stored and deployed.
 
 #### **Project Structure**
@@ -18,7 +17,7 @@ This repository contains a simple Node.js web application and a complete CI/CD p
 * **`app.js`**: The main Node.js application file that runs the web server.
 * **`package.json`**: Lists the project's dependencies (`express`) and scripts.
 * **`Dockerfile`**: Contains instructions for building the Docker image of the application.
-* [cite_start]**`.github/workflows/main.yml`**: This YAML file defines the entire CI/CD pipeline, specifying the jobs and steps to be executed on every push to the `main` branch[cite: 1].
+* **`.github/workflows/main.yml`**: This YAML file defines the entire CI/CD pipeline, specifying the jobs and steps to be executed on every push to the `main` branch.
 
 #### **CI/CD Workflow**
 
@@ -27,7 +26,7 @@ The pipeline, defined in `main.yml`, consists of a single job that performs the 
 1.  **Checkout Code**: The workflow checks out the code from the repository.
 2.  **Set up Node.js**: Installs the required Node.js environment.
 3.  **Install Dependencies**: Installs the project dependencies listed in `package.json`.
-4.  [cite_start]**Docker Login**: Uses secure GitHub Secrets to log in to DockerHub[cite: 1].
+4.  **Docker Login**: Uses secure GitHub Secrets to log in to DockerHub.
 5.  **Build Docker Image**: Builds the Docker image based on the `Dockerfile`.
 6.  **Push Docker Image**: Pushes the newly built image to the configured DockerHub repository.
 
