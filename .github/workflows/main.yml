@@ -33,4 +33,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/NodeJS-CI-CD-pipeline:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/nodejs-ci-cd-pipeline:latest
