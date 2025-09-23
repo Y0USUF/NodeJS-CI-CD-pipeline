@@ -43,6 +43,6 @@ To replicate this setup, you need to configure your own GitHub repository with t
 ```bash
 docker pull yousufuddin/nodejs-ci-cd-pipeline:latest
 docker run -p 3000:3000 
-<yo<img width="1637" height="922" alt="Screenshot 2025-09-23 163142" src="https://github.com/user-attachments/assets/997f4472-6692-4c58-81c1-634061589d78" />
-ur-dockerhub-username>/nodejs-demo-app
 
+<img width="1637" height="922" alt="Screenshot 2025-09-23 163142" src="https://github.com/user-attachments/assets/87ea110e-f5fc-4b21-a8e9-2744728e6376" />
+<img width="2247" height="415" alt="Screenshot 2025-09-23 163120" src="https://github.com/user-attachments/assets/e5f744e5-b3df-4a2e-853a-e5b79968c4e1" />
