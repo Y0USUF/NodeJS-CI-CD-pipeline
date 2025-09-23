@@ -1,15 +1,9 @@
-const express = require('express');
-const os = require('os');
+const express = require("express");
 const app = express();
-const port = 8080;
+const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-  res.send(`
-    <h1>Hello World!</h1>
-    <p>This is a simple Node.js demo application running on ${os.hostname()}.</p>
-  `);
+app.get("/", (req, res) => {
+  res.send("Hello from CI/CD Pipeline 🚀");
 });
 
-app.listen(port, () => {
-  console.log(`App listening on port ${port}`);
-});
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
