@@ -13,7 +13,6 @@ This project was created as part of the DevOps Internship Task 1, which aims to 
 * **DockerHub**: The registry where the Docker image is stored and deployed.
 
 #### **Project Structure**
-
 * **`app.js`**: The main Node.js application file that runs the web server.
 * **`package.json`**: Lists the project's dependencies (`express`) and scripts.
 * **`Dockerfile`**: Contains instructions for building the Docker image of the application.
